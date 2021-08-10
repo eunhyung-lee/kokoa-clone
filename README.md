@@ -1,3 +1,3 @@
 #Kokoa Clone 2021
 
-CSS is good!
+HTML & CSS are so much fun!
