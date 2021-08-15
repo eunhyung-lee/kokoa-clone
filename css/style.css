@@ -1,0 +1,8 @@
+@import "reset.css";
+@import "fixed.css";
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+@import "sign-up.css";
+body {
+  box-sizing: border-box;
+  font-family: "Recursive", sans-serif;
+}
