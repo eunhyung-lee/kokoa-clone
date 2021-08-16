@@ -1,7 +1,10 @@
 .status-bar {
   display: flex;
+  position: fixed;
+  width: 100%;
   justify-content: center;
-  margin-bottom: 70px;
+  top: 0px;
+  background-color: rgb(240, 174, 240);
 }
 .status-bar__column {
   width: 33%;
@@ -19,4 +22,71 @@
 .status-bar__column:nth-child(3) {
   display: flex;
   justify-content: flex-end;
+}
+
+.screen-header {
+  margin: 45px 15px 25px 15px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.screen-header .screen-header--column:first-child {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.screen-header--column i {
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+.navigation-bar {
+  /* display: flex; */
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+}
+.navigation-bar ul {
+  display: flex;
+  border-top: rgb(238, 130, 238, 0.4) solid 1px;
+  padding: 20px 60px;
+  justify-content: space-between;
+  background-color: rgb(255, 185, 255, 0.3);
+}
+
+.navigation-bar a {
+  text-decoration: none;
+  color: black;
+}
+.navigation-bar li {
+  position: relative;
+}
+
+.navigation-bar--column__notification:first-child {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(126, 214, 67);
+  color: white;
+  width: 23px;
+  height: 23px;
+  font-size: 13px;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+}
+.navigation-bar--column__notification:last-child {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(126, 214, 67);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  right: -10px;
 }

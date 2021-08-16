@@ -23,11 +23,11 @@
       <h1>welcome to ESS Messenger</h1>
       <p>If you have ESS Account, log in with your email or phone number.</p>
     </div>
-    <form class="login-form">
+    <form class="login-form" action="friends.html">
       <input
         class="login-form--input"
-        type="text"
-        placeholder="Email or phone number"
+        type="email"
+        placeholder="Email"
         required
       />
       <input
@@ -35,10 +35,12 @@
         type="password"
         placeholder="Password"
         required
+        minlength="10"
       />
+
       <input class="login-form--submit" type="submit" value="Log in" />
       <input class="login-form--submit" type="submit" value="Sign Up" />
-      <a href="friends.html">Find Kakao Account or PassWord</a>
+      <a href="friends.html">Find ESS Account or PassWord</a>
     </form>
 
     <script
