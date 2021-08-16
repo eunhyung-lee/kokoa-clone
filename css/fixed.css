@@ -60,7 +60,7 @@
 }
 .navigation-bar ul {
   display: flex;
-  border-top: rgb(238, 130, 238, 0.4) solid 1px;
+  border-top: var(--main-border);
   padding: 20px 60px;
   justify-content: space-between;
   background-color: rgb(255, 185, 255, 0.3);
