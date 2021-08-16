@@ -1,12 +1,17 @@
 @import "variable.css";
 @import "reset.css";
 @import "fixed.css";
+@import "alt-fixed.css";
 @import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
 @import "sign-up.css";
 @import "friends.css";
 @import "chats.css";
 @import "search.css";
 @import "more.css";
+@import "settings.css";
+@import "chat.css";
+@import "animation.css";
+@import "no-mobile.css";
 body {
   box-sizing: border-box;
   font-family: "Recursive", sans-serif;
