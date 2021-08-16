@@ -1,0 +1,21 @@
+.search-icons {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: rgb(124, 13, 124, 0.2) solid 1px;
+  padding-bottom: 20px;
+}
+
+.search-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-icons__icon i {
+  font-size: 35px;
+}
+
+.search-icons__icon span {
+  margin-top: 18px;
+}

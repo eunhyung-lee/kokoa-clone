@@ -4,7 +4,11 @@
 @import "sign-up.css";
 @import "friends.css";
 @import "chats.css";
+@import "search.css";
+@import "more.css";
 body {
   box-sizing: border-box;
   font-family: "Recursive", sans-serif;
+  padding-top: 5px;
+  background-color: rgb(236, 165, 236, 0.2);
 }

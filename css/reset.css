@@ -131,3 +131,10 @@ table {
 .login-form input {
   outline: none;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.main-screen {
+  padding: 0px 35px;
+}

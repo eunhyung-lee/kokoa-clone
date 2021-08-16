@@ -3,8 +3,8 @@
   position: fixed;
   width: 100%;
   justify-content: center;
-  top: 0px;
-  background-color: rgb(240, 174, 240);
+  top: 5px;
+  /* background-color: rgb(240, 174, 240); */
 }
 .status-bar__column {
   width: 33%;
@@ -26,7 +26,6 @@
 
 .screen-header {
   margin: 45px 15px 25px 15px;
-
   display: flex;
   justify-content: space-between;
 }
@@ -38,6 +37,19 @@
 .screen-header--column i {
   font-size: 25px;
   margin-left: 15px;
+}
+.screen-header--column a {
+  position: relative;
+}
+.fa-cog + span {
+  background-color: rgb(126, 214, 67);
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  top: -13px;
+  right: -8px;
 }
 
 .navigation-bar {

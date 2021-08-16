@@ -1,1 +1,96 @@
-more.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .navigation-bar ul a:nth-child(1),
+      .navigation-bar ul a:nth-child(2),
+      .navigation-bar ul a:nth-child(3) {
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="status-bar">
+      <span class="status-bar__column">
+        No Service <i class="fas fa-wifi"></i>
+      </span>
+      <span class="status-bar__column">18:43</span>
+      <span class="status-bar__column">
+        100%
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </span>
+    </header>
+
+    <header class="screen-header">
+      <div class="screen-header--column">More</div>
+      <div class="screen-header--column">
+        <i class="fas fa-search fa-2x"></i>
+        <i class="fas fa-music fa-2x"></i>
+        <a href="settings.html">
+          <i class="fas fa-cog fa-2x"></i>
+          <span></span>
+        </a>
+      </div>
+    </header>
+
+    <div class="find-icons">
+      <div class="find-icons__icon">
+        <i class="fas fa-qrcode"></i>
+        <span>QR Code</span>
+      </div>
+      <div class="find-icons__icon">
+        <i class="far fa-address-book"></i>
+        <span>Add by Contacts</span>
+      </div>
+      <div class="find-icons__icon">
+        <i class="fas fa-fingerprint"></i>
+        <span>Add by ID</span>
+      </div>
+      <div class="find-icons__icon">
+        <i class="far fa-envelope"></i>
+        <span>Invite</span>
+      </div>
+    </div>
+
+    <footer class="navigation-bar">
+      <ul>
+        <a href="friends.html">
+          <li class="navigation-bar--column">
+            <i class="far fa-user fa-2x"></i>
+            <!-- <i class="far fa-user fa-2x"></i> -->
+          </li>
+        </a>
+        <a href="chats.html">
+          <li class="navigation-bar--column">
+            <!-- <span class="navigation-bar--column__notification">1</span> -->
+            <i id="search-bottom" class="far fa-comment fa-2x"></i>
+            <!-- <i class="fas fa-comment fa-2x"></i> -->
+          </li>
+        </a>
+        <a href="search.html">
+          <li class="navigation-bar--column">
+            <i class="fas fa-search fa-2x"></i>
+          </li>
+        </a>
+        <a href="more.html">
+          <li class="navigation-bar--column">
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+            <!-- ellipsis far need -->
+            <span class="navigation-bar--column__notification"></span>
+          </li>
+        </a>
+      </ul>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
