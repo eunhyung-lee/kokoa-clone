@@ -30,5 +30,17 @@
   align-items: center;
   font-size: 132px;
   animation: hideSplashScreen 1s ease-in-out forwards;
-  animation-delay: 2s;
+  animation-delay: 1s;
+}
+
+@keyframes navigation-appear {
+  from {
+    bottom: -74px;
+  }
+  to {
+    bottom: 0px;
+  }
+}
+.navigation-bar {
+  animation: navigation-appear 0.5s ease-in-out;
 }
